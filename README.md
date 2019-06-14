@@ -1,11 +1,10 @@
-<img src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96" alt="Google Cloud Platform logo" title="Google Cloud Platform" align="right" height="96" width="96"/>
 
-# Google Cloud Functions - Cloud Storage sample
+## Descripion
 
-See:
+1. This service is built to be deployed on Google Cloud Function.
 
-* [Cloud Functions Cloud Storage tutorial][tutorial]
-* [Cloud Functions Cloud Storage source code][code]
+2. It is trigerred when a file is uploaded on Google Cloud Storage.
 
-[tutorial]: https://cloud.google.com/functions/docs/tutorials/storage
-[code]: main.py
+3. It publishes the file meta data to a Pub/Sub topic.
+
+
